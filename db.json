@@ -2,10 +2,100 @@
   "visitors": [
     {
       "id": 1,
+      "eventCode": "",
       "tagId": "",
       "contents": "",
       "timeIn": 0,
-      "eventCode": ""
+      "timeOut": 0
+    }
+  ],
+  "waybill": [
+    {
+      "waybillId": 1,
+      "truckId": 1,
+      "scheduledDate": 0,
+      "packages": [
+        {
+          "packageId": 1,
+          "name": "Omar Bernardi",
+          "street": "Belgrano",
+          "number": "321",
+          "city": "Cordoba",
+          "indications": "apt 2A"
+        },
+        {
+          "packageId": 2,
+          "name": "Carlos Rodriguez",
+          "street": "Sabattini",
+          "number": "2569",
+          "city": "Cordoba",
+          "indications": ""
+        },
+        {
+          "packageId": 3,
+          "name": "Susana Horia",
+          "street": "Colon",
+          "number": "4203",
+          "city": "Cordoba",
+          "indications": ""
+        },
+        {
+          "packageId": 4,
+          "name": "Elvio Marchisone",
+          "street": "Arturo Orgaz",
+          "number": "512",
+          "city": "Cordoba",
+          "indications": ""
+        }
+      ]
+    },
+    {
+      "waybillId": 2,
+      "truckId": 1,
+      "scheduledDate": 0,
+      "packages": [
+        {
+          "packageId": 5,
+          "name": "Carlos Lentini",
+          "street": "Chamical",
+          "number": "220",
+          "city": "Cordoba",
+          "indications": ""
+        },
+        {
+          "packageId": 6,
+          "name": "Javier Castellano",
+          "street": "Ancasti",
+          "number": "449",
+          "city": "Cordoba",
+          "indications": ""
+        },
+        {
+          "packageId": 7,
+          "name": "Mariano Ferraiolo",
+          "street": "El Chocon",
+          "number": "1802",
+          "city": "Cordoba",
+          "indications": ""
+        },
+        {
+          "packageId": 8,
+          "name": "Luciana Bernardi",
+          "street": "Sargento Cabral",
+          "number": "701",
+          "city": "Cordoba",
+          "indications": ""
+        }
+      ]
+    }
+  ],
+  "delivery": [
+    {
+      "id": 1,
+      "waybillId": 0,
+      "packageId": 0,
+      "timestamp": 0,
+      "status": "Delivered"
     }
   ]
 }
