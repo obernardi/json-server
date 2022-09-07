@@ -1,5 +1,5 @@
 {
-  "visitors": [
+  "visitors": 
     {
       "id": 1,
       "tagId": "",
@@ -7,5 +7,4 @@
       "timeIn": 0,
       "eventCode": ""
     }
-  ]
 }
